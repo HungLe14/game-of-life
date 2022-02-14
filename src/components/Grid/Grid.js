@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const GridDiv = styled.div`
   margin: 40px auto;
   padding: 0;
-  width: ${(props) => props.cols * 50}px;
-  height: ${(props) => props.cols * 50}px;;
+  width: ${(props) => props.cols * 20}px;
+  height: ${(props) => props.cols * 20}px;;
   display: grid;
-  grid-template-columns: repeat(${(props) => props.cols}, 50px);
+  grid-template-columns: repeat(${(props) => props.cols}, 20px);
   }
 `;
 

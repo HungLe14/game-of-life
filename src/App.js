@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Cell, GridDiv } from "./components/Grid/Grid";
 
-const cols = 50;
-const rows = 50;
+const cols = 100;
+const rows = 100;
 
 const positions = [
   [0, 1],
